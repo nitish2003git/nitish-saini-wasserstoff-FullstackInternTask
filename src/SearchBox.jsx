@@ -9,7 +9,7 @@ export default function SearchBox({ updateInfo, updateForecast }) {
     let [city, setCity] = useState("");
     const API_URL = "https://api.openweathermap.org/data/2.5/weather";
     const FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast";
-    const API_KEY = "6e9df62fd7e08b9719056844b147c2db";
+    const API_KEY = "ADD YOUR OWN OpenWeather api KEY";
 
 
     // getWeatherInfo() Function fetch openweather api to receive current weather
