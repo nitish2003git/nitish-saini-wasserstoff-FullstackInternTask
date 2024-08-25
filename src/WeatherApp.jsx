@@ -21,7 +21,7 @@ export default function WeatherApp() {
     // 'forecast' and 'unit' as a state variable to track weather forecast and weather measuring unit
     const [forecast, setForecast] = useState([]);
     const [unit, setUnit] = useState('C');
-    const API_KEY = "6e9df62fd7e08b9719056844b147c2db";
+    const API_KEY = "ADD YOUR OWN OpenWeather API KEY";
     const defaultCity = "Delhi";
 
 
