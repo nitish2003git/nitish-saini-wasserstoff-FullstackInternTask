@@ -1,0 +1,31 @@
+
+/* SearchBox.css */
+
+input{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 80px);
+    
+}
+
+#search{
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+#search:hover{
+    background: #7c7c7c2b;
+}
+
+#searchparent{
+    padding: 0;
+}
+

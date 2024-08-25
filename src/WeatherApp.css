@@ -1,0 +1,43 @@
+
+/* WeatherApp.css */
+
+.weather-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+   
+    
+
+}
+
+.current-weather{
+    border: 1px solid black;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 30px;
+    color: white;
+    background-color: #000000c2;
+}
+ 
+/* Styles for regular mobile phones */
+
+@media (max-width: 375px) {
+    .weather-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+/* Styles for medium devices */
+@media (min-width:376px) and (max-width:768px){
+    .weather-container {
+        display: flex;
+        flex-direction: column;
+      }
+}

@@ -1,0 +1,33 @@
+
+/* InfoBox.css */
+
+.weather-loading{
+      margin-top: 1em;
+      
+}
+
+img{
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 40%;
+    display: inline-block;
+}
+
+.information p {
+    font-size: large;
+}
+
+.flex{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+button {
+    background-color: transparent;
+    margin: 0;
+    padding: 7px;
+    color: white;
+    font-size: large;
+    border-radius: 40%;
+}
