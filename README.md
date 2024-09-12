@@ -1,5 +1,5 @@
 
-# nitish-saini-wasserstoff-FullstackInternTask
+# weather-dasboard
 
 SkyScene as a Weather Website is a responsive web application built using React that provides current weather information and forecasts for any location worldwide. Users can search for cities and receive real-time data, including temperature, humidity, wind speed, and weather conditions. The app uses the OpenWeatherMap API to fetch accurate weather data.
 
